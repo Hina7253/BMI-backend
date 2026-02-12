@@ -1,4 +1,4 @@
-
+package com.bmi.controller;
 
 import com.bmi.model.BmiRequest;
 import com.bmi.model.BmiResponse;
