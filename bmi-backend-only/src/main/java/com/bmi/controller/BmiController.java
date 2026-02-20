@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
-@RestController
+
 @RequestMapping("/api/bmi")
 @CrossOrigin(origins = "*") // Frontend se connect karne ke liye
 public class BmiController {
