@@ -1,7 +1,7 @@
 package com.bmi.controller;
 
 import com.bmi.model.BmiRequest;
-import com.bmi.model.BmiResponse;
+
 import com.bmi.service.BmiService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
