@@ -1,6 +1,8 @@
 package com.bmi.model;
 
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
+
 
 public class BmiRequest {
     
