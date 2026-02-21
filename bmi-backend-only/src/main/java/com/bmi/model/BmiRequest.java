@@ -7,7 +7,6 @@ public class BmiRequest {
     
     @NotNull(message = "Weight is required")
     @Positive(message = "Weight must be positive")
-    private Double weight;
     
     @NotNull(message = "Height is required")
     @Positive(message = "Height must be positive")
