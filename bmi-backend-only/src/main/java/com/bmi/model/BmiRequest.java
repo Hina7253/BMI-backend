@@ -4,8 +4,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
 
-public class BmiRequest {
-    
+
     @NotNull(message = "Weight is required")
     @Positive(message = "Weight must be positive")
     private Double weight;
